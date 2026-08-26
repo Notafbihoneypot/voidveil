@@ -1,0 +1,20 @@
+voidveil_version=0.1.0-alpha.3-qubes
+architecture=x86_64
+build_date_utc=2026-08-24
+source_date_epoch=1787530058
+void_mklive_commit=e50f853db68d9910e8c8a1e82cde14d61c9a6fef
+void_repository=https://repo-default.voidlinux.org/current
+void_nonfree_repository=https://repo-default.voidlinux.org/current/nonfree
+kernel_package=linux-lts
+kernel_version=6.12.104_1
+kernel_cmdline=live.autologin live.user=anon rd.lvm=0 rd.swap=0 ipv6.disable=1 apparmor=1 security=apparmor init_on_alloc=1 init_on_free=1 slab_nomerge page_alloc.shuffle=1 randomize_kstack_offset=on vsyscall=none mitigations=auto,nosmt
+official_void_builder_iso_sha256=0f7439f500740f62dd18972cae448cec7d8a85032c7eb8f1bf946100d9a92161
+base_alpha2_iso_sha256=6982738bc465dd51dbea289a96be59ec603bf741dbe0d5df00bcfcab897efdd8
+base_alpha2_source_tree_sha256=ed50291e84eba6d76b73d728081cc51070e2377c61ac741a16b42ae29fc4ea23
+alpha3_source_tree_sha256=31e68cb9b022ce9da8c8cc8a522385d324af87d092d3d46d7deedb8693fec1c6
+package_manifest_sha256=8fe182d66299b8884ee42c77e4785149ea4b4b6fa6b2211de19ff4787ce93fdb
+source_archive_sha256=1f2673a4fcfc40a94f457f8e90ab50727cbb761813eda826a99897c7e11f7d51
+iso_sha256=17c9c1c09f83c3d980e9ac2104606756b7a1bd101c3f78ff666d208b65d59054
+remaster=alpha.2 rootfs plus volatile-machine-id and IPv6-audit corrections; hybrid boot equipment replayed by xorriso
+validation=normal online leak test PASS; Qubes online leak test PASS; Qubes offline zero-packet test PASS
+release_status=experimental research prototype; not independently audited
