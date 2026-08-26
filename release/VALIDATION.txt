@@ -1,0 +1,28 @@
+Voidveil 0.1.0-alpha.3-qubes validation summary
+UTC image date: 2026-08-24
+
+ISO:
+  voidveil-0.1.0-alpha.3-qubes-x86_64-20260824.iso
+SHA-256:
+  17c9c1c09f83c3d980e9ac2104606756b7a1bd101c3f78ff666d208b65d59054
+
+PASS  official Void builder ISO checksum and Minisign release metadata
+PASS  XBPS RSA package-signature verification
+PASS  rootfs Tor, NetworkManager, and nftables configuration validation
+PASS  ext filesystem five-pass read-only e2fsck
+PASS  hybrid BIOS and UEFI boot structure
+PASS  Syslinux and GRUB Qubes online/offline entries
+PASS  no boot-to-host-disk menu entry
+PASS  final QEMU boot audit (11 invariants)
+PASS  writable decoy physical disk remained read-only
+PASS  direct public TCP bypass absent from virtual-NIC capture
+PASS  arbitrary UDP bypass absent from virtual-NIC capture
+PASS  user DNS bypass absent from virtual-NIC capture
+PASS  local-network bypass absent from virtual-NIC capture
+PASS  IPv6 bypass absent from virtual-NIC capture
+PASS  Qubes online /32 static-route boot and negative-leak test
+PASS  Qubes offline boot audit, no default route, and zero emitted packets
+
+The image was tested under QEMU TCG, not on an actual Xen/Qubes hypervisor.
+It is console-only, has not been independently audited, and is not equivalent
+to Tails. Use only in a disposable test HVM without secrets or attached devices.
